@@ -42,13 +42,13 @@ class DQN(nn.Module):
             # pdb.set_trace()
             # with torch.no_grad():
             # print('tsest')
-            print(self.forward(state))
+            # print(self.forward(state))
             action_index = torch.max(self.forward(state), 1)[1].view(1, 1)
             return action_index
         else:
             if sample_prob > epsilon:  # take policy's action
                 with torch.no_grad():
-                    print(self.forward(state))
+                    # print(self.forward(state))
                     action_index = torch.max(self.forward(state),
                                              1)[1].view(1, 1)
 

@@ -1,4 +1,4 @@
 {
-    "python.pythonPath": "/home/ssbl/anaconda3/envs/ml/bin/python",
+    "python.pythonPath": "/Users/wei-cheng/anaconda3/bin/python",
     "python.formatting.provider": "yapf"
 }

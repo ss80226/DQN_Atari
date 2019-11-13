@@ -29,7 +29,7 @@ for episode in range(10):
         game_step += 1
         action = policy.act(state, 1, isTrain=False).to(DEVICE)
         # print(action)
-        # print(state.squeeze()[:20])
+        print(state.squeeze()[:20])
         # print(action.item())
         # i = game_step%4
         next_state, reward, done, _ = env.step(
