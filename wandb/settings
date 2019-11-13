@@ -1,0 +1,4 @@
+[default]
+project = dqn-atari
+entity = ss80226
+

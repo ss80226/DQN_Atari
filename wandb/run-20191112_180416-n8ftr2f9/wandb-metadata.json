@@ -1,0 +1,25 @@
+{
+    "root": "/home/ssbl/Desktop/DQN_Atari",
+    "program": "train.py",
+    "git": {
+        "remote": "https://github.com/ss80226/DQN_Atari.git",
+        "commit": "0bff557eedd4287987cf0b5aad9810ccba4a8b3e"
+    },
+    "email": null,
+    "startedAt": "2019-11-12T18:04:16.731757",
+    "host": "faustus",
+    "username": "ssbl",
+    "executable": "/home/ssbl/anaconda3/envs/ml/bin/python",
+    "os": "Linux-5.0.0-32-generic-x86_64-with-debian-buster-sid",
+    "python": "3.7.4",
+    "gpu": "GeForce GTX 1080 Ti",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "args": [],
+    "state": "finished",
+    "jobType": null,
+    "mode": "run",
+    "project": "dqn-atari",
+    "heartbeatAt": "2019-11-12T18:30:48.983996",
+    "exitcode": 0
+}
